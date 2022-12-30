@@ -16,7 +16,7 @@ public class HanlimController {
     }
 
     @GetMapping("hello-mvc")
-    public String helloMvc(@RequestParam("name") String name, Model model) {
+    public String helloMvc(@RequestParam("name") String name, Model model) { //파라미터를 받음
         model.addAttribute("name", name);
         return "hello-template";
     }
