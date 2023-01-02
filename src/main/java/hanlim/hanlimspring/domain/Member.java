@@ -1,6 +1,6 @@
 package hanlim.hanlimspring.domain;
 
-public class Menber {
+public class Member {
 
     private Long id;
     private String name;

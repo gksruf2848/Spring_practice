@@ -1,6 +1,7 @@
 package hanlim.hanlimspring.repository;
 
-import java.lang.reflect.Member;
+import hanlim.hanlimspring.domain.Member;
+
 import java.util.List;
 import java.util.Optional;
 
